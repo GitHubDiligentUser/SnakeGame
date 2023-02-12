@@ -19,14 +19,18 @@
 ## Как да настроите и стартирате играта?
   Като за начало трябва да инстарилате файловете локално с командата:
   ```
-  $ git clone https://github.com/GitHubDiligentUser/SnakeGame
+  $ git clone https://github.com/GitHubDiligentUser/SnakeGame.git
   ```
   Както обикновено, чрез терминала или командния панел достъпвате до директорията на проекта. След това, за да стартирате програмата, е необходимо да изтеглите всички модули, записани в тектовия файл reguirements.txt, чрез командата
   ```
-  $ py -m pip install -r requirements.txt
+  $ pip install -r requirements.txt
   ```
   За да се уверите, че всичко е свалено успешно, въведете командата
   ```
-  $ py -m pip check
+  $  pip check
   ```
   Трябва да получите съобщение "No broken requirements found."
+  За стартиране на тестовете използвайте следната команда в терминала:
+  ```
+  $ python -m unittest
+  ```
