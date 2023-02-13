@@ -23,22 +23,28 @@
 
 ## Как да настроите и стартирате играта?
   Като за начало трябва да инсталирате файловете локално с командата:
-  ```
+  ```bash
   $ git clone https://github.com/GitHubDiligentUser/SnakeGame.git
   ```
-  Както обикновено, чрез терминала или командния панел достъпвате до директорията на проекта. След това, за да стартирате програмата, е необходимо да изтеглите всички модули, записани в тектовия файл reguirements.txt, чрез командата
-  ```
+  Както обикновено, чрез терминала или командния панел достъпвате до директорията на проекта. След това, за да стартирате програмата, е необходимо да изтеглите всички модули, записани в тектовия файл reguirements.txt, с помощта на [pip](https://pip.pypa.io/en/stable/) чрез командата
+  ```bash
   $ pip install -r requirements.txt
   ```
   За да се уверите, че всичко е свалено успешно, въведете командата
-  ```
+  ```bash
   $  pip check
   ```
   Трябва да получите съобщение "No broken requirements found."
   За стартиране на тестовете използвайте следната команда в терминала:
-  ```
+  ```bash
   $ python -m unittest
   ```
 
 ## Източници
-Аудиозаписите са взети от https://github.com/GenXCoding/Learn-With-Me и от https://www.youtube.com/watch?v=znveZhlltV8, а изображението - от https://github.com/clear-code-projects/Snake/blob/be5b87e677f6413a2f9b321e90b45945f43c6e5d/Graphics/apple.png
+Аудиозаписите са взети от 
+* https://github.com/GenXCoding/Learn-With-Me
+* https://www.youtube.com/watch?v=znveZhlltV8
+* https://github.com/clear-code-projects/Snake/tree/be5b87e677f6413a2f9b321e90b45945f43c6e5d/Sound
+
+Изображението е взето от
+* https://github.com/clear-code-projects/Snake/blob/be5b87e677f6413a2f9b321e90b45945f43c6e5d/Graphics/apple.png
