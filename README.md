@@ -41,4 +41,4 @@
   ```
 
 ## Източници
-Аудиозаписите са взети от github.com/GenXCoding/Learn-With-me и от https://www.youtube.com/watch?v=znveZhlltV8
+Аудиозаписите са взети от https://github.com/GenXCoding/Learn-With-Me и от https://www.youtube.com/watch?v=znveZhlltV8, а изображението - от https://github.com/clear-code-projects/Snake/blob/be5b87e677f6413a2f9b321e90b45945f43c6e5d/Graphics/apple.png
